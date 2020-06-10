@@ -1,0 +1,35 @@
+.banner {
+  height: 700px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#dot {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #AC887B;
+  position: absolute;
+  top: 33%;
+  left: 49%;
+  z-index: 999;
+}
+
+.banner-title {
+  position: absolute;
+  top: 36%;
+  left: 37%;
+  border-radius: 4px;
+  background-color: $cream;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 500px;
+  height: 300px;
+  color: $gray;
+  text-align: center;
+  h1 {
+    font-family: 'Cinzel Decorative';
+    padding: 60px;
+    padding-bottom: 10px;
+  }
+}

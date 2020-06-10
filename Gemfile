@@ -18,6 +18,6 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 # Assets compiling
 ## SCSS glob compiling
-gem 'sass-globbing'
+# gem 'sass-globbing'
 ## Middleman sprockets
 gem 'middleman-sprockets'

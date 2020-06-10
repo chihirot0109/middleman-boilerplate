@@ -1,0 +1,59 @@
+.hanastagram {
+ width: 240px;
+ margin: 40px auto;
+}
+
+.facilita {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 600px;
+  margin: 40px;
+  border-radius: 4px;
+}
+
+.contents {
+  position: relative;
+  margin: 40px;
+  width: 600px;
+}
+
+.contents.hana {
+  margin-top: 100px;
+  .text {
+    padding: 20px;
+  }
+}
+
+.bg {
+  position: absolute;
+  width: 650px;
+  height: 400px;
+  top: -45px;
+  left: 0;
+  z-index: -1;
+}
+
+.text {
+  position: absolute;
+  top: 18px;
+  left: 94px;
+  z-index: 999;
+  width: 480px;
+  h3 {
+  color: $brown;
+  font-weight: 600;
+  }
+}
+
+.text.cocktail {
+  padding: 20px;
+}
+
+.btn-outline {
+  color: $beige;
+  border-color: $beige;
+  &:hover {
+    color: white;
+    background-color: $beige;
+  }
+}
+
