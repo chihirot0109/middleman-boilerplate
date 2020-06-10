@@ -24,12 +24,24 @@
   background-color: $cream;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   width: 500px;
-  height: 300px;
+  height: 340px;
   color: $gray;
   text-align: center;
   h1 {
     font-family: 'Cinzel Decorative';
     padding: 60px;
     padding-bottom: 10px;
+  }
+}
+
+.beige {
+  text-decoration: none !important;
+  color: $beige;
+  padding: 10px;
+  border-radius: 4px;
+  transition: ease;
+  &:hover {
+    color: white;
+    background-color: $beige;
   }
 }
