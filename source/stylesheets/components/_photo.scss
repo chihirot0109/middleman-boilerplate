@@ -18,9 +18,6 @@
 
 .contents.hana {
   margin-top: 100px;
-  .text {
-    padding: 20px;
-  }
 }
 
 .bg {
@@ -30,6 +27,10 @@
   top: -45px;
   left: 0;
   z-index: -1;
+}
+
+.bg-facilita {
+  height: 500px;
 }
 
 .text {
@@ -42,10 +43,6 @@
   color: $brown;
   font-weight: 600;
   }
-}
-
-.text.cocktail {
-  padding: 20px;
 }
 
 .btn-outline {

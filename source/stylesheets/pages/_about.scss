@@ -11,6 +11,10 @@ p {
  }
 }
 
+.section-facilita {
+  height: 580px;
+}
+
 .item-section {
   display: flex;
   justify-content: space-between;
@@ -22,6 +26,10 @@ p {
 }
 
 @media screen and (max-width: 1300px) {
+  .section-facilita {
+    height: 100%;
+  }
+
   .item-section {
     display: flex;
     flex-direction: column-reverse;
@@ -40,6 +48,10 @@ p {
     z-index: -1;
   }
 
+  .bg-facilita {
+    height: 600px;
+  }
+
   .text {
     position: absolute;
     top: 70px;
@@ -49,7 +61,7 @@ p {
   }
 
   .text.cocktail {
-    padding-top: 40px;
+    padding-top: 10px;
   }
 
   .contents {
@@ -76,6 +88,10 @@ p {
     height: 420px;
   }
 
+  .bg-facilita {
+    height: 520px;
+  }
+
   .text.text-facilita {
     left: 30px;
   }
@@ -83,6 +99,7 @@ p {
   .text {
     top: 30px;
     left: 10px;
+    padding: 16px;
     h3 {
       font-size: 18px;
     }
@@ -137,4 +154,5 @@ p {
     left: -45px;
     z-index: -1;
   }
+
 }
