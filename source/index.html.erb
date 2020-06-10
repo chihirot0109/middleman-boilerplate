@@ -1,0 +1,26 @@
+<div class="container">
+  <%= image_tag "top.png", class: "banner" %>
+  <div id="dot"></div>
+  <div class="banner-title">
+    <h1>Chihiro Tsuda</h1>
+    <div class="box">
+      <p>Ruby</p>
+      <p>Ruby on Rails</p>
+      <p>HTML5</p>
+      <p>CSS3</p>
+      <p>JavaScript</p>
+      <p>SQLite</p>
+      <p>PostgreSQL</p>
+    </div>
+    <div class="box">
+      <% link_to "https://www.linkedin.com/in/chihirotsuda/", target: "_blank" do %>
+        <i class="fab fa-linkedin-in fa-2x"></i>
+      <% end %>
+      <% link_to "https://github.com/chihirot0109", target: "_blank" do %>
+        <i class="fab fa-github fa-2x"></i>
+      <% end %>
+    </div>
+  </div>
+</div>
+<%= partial "about" %>
+<%= partial "projects" %>
