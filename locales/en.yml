@@ -1,0 +1,24 @@
+en:
+  title: "Alumini of Le Wagon Tokyo batch #394."
+  about: "I was born in Japan. I studied in Canada when I was in high school and in South Korea during university.
+    After I graduated university, I worked for Japan National Tourism Organization and engaged in Tourism Marketing. <br>
+    Then I moved to Thailand in 2016 and worked for a recruitment agency taking a role both in sales and career consultant.
+    I came back to Japan worked for a Switzerland based company as a recruiting specialist until I joined one of the start-up companies in Tokyo, where
+    I worked with web developers and got interested in programming."
+  period: "Production period"
+  type: "Type"
+  charge: "In charge of"
+  facilita_charge: "Design layout of every page, real time chat/Q&A/poll fuction with WebSocket."
+  facilita: "Application for an event organizer to enhance facilitation of the event.
+          I came up with this idea as one of my friend who works as a community manager told me about her work.
+          I wanted to create an app to support an event organizer like her especially under the quarantine and many events are hosted online."
+  hanastagram: "Application for my family and friends to share photos of my niece named 'Hana'.
+            This is my first hobby app after I learned how to create rails app.
+            I am still implementing new features and changing layout for better UI."
+  cocktail: "My first rails application for MVC practice.
+          Used JS to check the age before entering the bar.
+          User can create a cocktail with doses and add it to the bar."
+  dev_charge: "Profile page layout, check and edit request status function with JS"
+  dev: " First application with team members.
+        Basic market-place app and user can create a project to look for a team member.
+        Users can apply for the project and project owner can accept/reject the user."

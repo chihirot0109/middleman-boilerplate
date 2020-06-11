@@ -32,6 +32,8 @@
 # Helpers
 ###
 
+activate :i18n, :mount_at_root => :en, :langs => [:en, :ja]
+
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 

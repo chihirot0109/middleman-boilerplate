@@ -23,14 +23,14 @@
 .bg {
   position: absolute;
   width: 650px;
-  height: 400px;
+  height: 450px;
   top: -45px;
   left: 0;
   z-index: -1;
 }
 
 .bg-facilita {
-  height: 500px;
+  height: 520px;
 }
 
 .text {
@@ -54,3 +54,13 @@
   }
 }
 
+.btn-brown {
+  margin: 20px;
+  font-size: 14px;
+  color: $brown;
+  border-color: $brown;
+  &:hover {
+    color: white;
+    background-color: $brown;
+  }
+}
